@@ -1,5 +1,5 @@
 {
-  "parent": "items/generated",
+  "parent": "item/generated",
   "textures": {
     "laver0": "terracorecreate:item/mutterkorn"
   }
