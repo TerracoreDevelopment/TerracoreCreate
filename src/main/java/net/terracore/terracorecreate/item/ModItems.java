@@ -15,7 +15,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
             //Mutterkorn, auch Wolfsklaue genannt, ist ein Pilz, der Roggen befällt und zur Herstellung von LSD benutzt wird
     public static final RegistryObject<Item> LSDPAD = ITEMS.register("lsdpad",
-                    () -> new Item(new Item.Properties()))
+                    () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
