@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.terracore.terracorecreate.TCoreCreateMod;
+import net.terracore.terracorecreate.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.LSDPAD.get());
                         output.accept(ModItems.MUTTERKORN.get());
+                        output.accept(ModBlocks.COCAINE_BLOCK.get());
                     })
                     .build());
 
