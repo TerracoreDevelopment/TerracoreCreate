@@ -1,0 +1,13 @@
+Blocks:
+Kokainblock
+Isolator (Create Mod Component)
+
+Items:
+Kokainpulver
+Coca-Blatt
+
+Chemical Substances:
+
+
+Fluids:
+LSD
