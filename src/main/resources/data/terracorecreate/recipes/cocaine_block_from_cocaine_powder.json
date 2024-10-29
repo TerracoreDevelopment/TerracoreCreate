@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "terracorecreate:cocaine_powder"
+    }
+  }
+  "result": {
+    "item": "terracorecreate:cocaine_block"
+  }
+}
