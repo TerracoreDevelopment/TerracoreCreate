@@ -59,7 +59,6 @@ public class TCoreCreateMod
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModItems.MUTTERKORN);
             //Siehe main.java.net.terracore.terracorecreate.item.ModItems für eine Erklärung, was Mutterkorn ist
-            event.accept(ModItems.LSDPAD);
 
         }
     }

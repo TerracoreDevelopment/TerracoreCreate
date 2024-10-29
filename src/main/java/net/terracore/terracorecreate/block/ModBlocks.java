@@ -23,6 +23,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> COCAINE_BLOCK = registerBlock("cocaine_block",
             () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.ROOTED_DIRT)));
 
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

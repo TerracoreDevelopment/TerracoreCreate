@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LSDPAD.get());
                         output.accept(ModItems.MUTTERKORN.get());
                         output.accept(ModBlocks.COCAINE_BLOCK.get());
+                        output.accept(ModItems.COCAINEPOWDER.get());
                     })
                     .build());
 
