@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terracorecreate:cocaine_block"
+    }
+  ],
+  "result": {
+    "item": "terracorecreate:cocaine_powder",
+    "count": 9
+  }
+}
